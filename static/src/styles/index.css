@@ -1,0 +1,8 @@
+/* import tailwindcss and disable automatic source detection */
+@import "tailwindcss" source(none);
+
+/* register frontend directory */
+@source "../";
+
+/* register django templates */
+@source "../../../templates/**/*.html";

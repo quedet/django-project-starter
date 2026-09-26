@@ -1,0 +1,17 @@
+{% load webpack_loader static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Django Project Starter | Kinetic</title>
+    {% stylesheet_pack 'app' %}
+    {% javascript_pack 'app' attrs='defer' %}
+</head>
+<body>
+    <div class="w-full max-w-4xl mx-auto">
+        <h1 class="text-4xl p-4">Django Project Starter</h1>
+    </div>
+</body>
+</html>
