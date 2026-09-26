@@ -1,0 +1,19 @@
+[project]
+name = "django-project-starter"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Fidel Quedet",email = "fidelquedet10@gmail.com"}
+]
+license = "MIT"
+requires-python = ">=3.14,<4.0"
+dependencies = [
+    "django (>=6.1.1,<7.0.0)",
+    "python-webpack-boilerplate (>=1.0.4,<2.0.0)",
+    "django-extensions (>=4.1,<5.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
